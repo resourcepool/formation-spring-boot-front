@@ -7,7 +7,7 @@ import {AddUserComponent} from './add-user/add-user.component';
 const routes: Routes = [
   { path: '', component: UserComponent },
   { path: 'user', component: UserComponent },
-  { path: 'add-user', component: AddUserComponent }];
+  { path: 'add', component: AddUserComponent }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

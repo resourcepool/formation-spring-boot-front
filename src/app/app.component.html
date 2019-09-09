@@ -1,8 +1,9 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="/"><img class="logo" src="/assets/logo-epf.svg"/>EPF Live Coding</a>
+  <img class="logo" src="/assets/logo-epf.svg"/>
+  <a class="navbar-brand" [routerLink]="['/']">User List</a>
+  <a class="navbar-brand" [routerLink]="['/add']">Add User</a>
 </nav>
 
 <router-outlet></router-outlet>
 
-<a [routerLink]="['/add-user']" routerLinkActive="active">Ajouter un utilisateur</a>
 
